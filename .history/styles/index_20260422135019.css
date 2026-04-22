@@ -1,0 +1,49 @@
+main {
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+  color: rgb(196, 52, 196);
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  background-color: lightpink;
+}
+
+@media (min-width: 768px) {
+  .projects {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 48%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    width: 23%;
+  }
+}
