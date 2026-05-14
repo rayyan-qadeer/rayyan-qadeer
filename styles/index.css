@@ -39,7 +39,7 @@ header h1 {
   margin: 0.4rem;
   padding: 0.5rem 1rem;
   background-color: plum;
-  border-radius: 1.25rem;
+  border-radius: 20px;
 }
 
 .projects {
