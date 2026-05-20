@@ -63,6 +63,12 @@ header h1 {
   background-color: plum;
 }
 
+.card:focus {
+  footer a:focus {
+    outline: 2px solid blueviolet;
+    outline-offset: 4px;
+  }
+}
 footer {
   text-align: center;
   margin-top: 2rem;

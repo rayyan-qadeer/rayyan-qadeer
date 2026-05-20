@@ -71,6 +71,10 @@ footer {
   color: white;
 }
 
+footer a {
+  color: white;
+}
+
 @media (min-width: 768px) {
   .projects {
     flex-direction: row;
