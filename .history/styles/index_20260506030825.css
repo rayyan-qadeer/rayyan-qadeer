@@ -1,0 +1,74 @@
+main {
+  padding: 1rem;
+  max-width: 1200px;
+  margin: 0rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+  color: rgb(196, 52, 196);
+}
+
+.subtitle {
+  color: blueviolet;
+  margin-bottom: 0.5rem;
+}
+
+.description {
+  color: blueviolet;
+}
+
+.about,
+.skills {
+  text-align: center;
+  max-width: 43.75rem;
+  margin: 3rem auto;
+}
+
+.skills li {
+  display: inline-block;
+  margin: 0.4rem;
+  padding: 0.5rem 1rem;
+  background-color: plum;
+  border-radius: 1.25rem;
+}
+
+.projects {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+  border: 2px solid gray;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  background-color: plum;
+}
+
+@media (min-width: 768px) {
+  .projects {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 48%;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    width: 23%;
+  }
+}
