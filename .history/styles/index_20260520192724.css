@@ -46,13 +46,11 @@ header {
 .card {
   background-color: white;
   padding: 2rem;
-  border-radius: 0.75rem;
+  border-radius: 0.75rem; 
   border: 2px solid gray;
   text-decoration: none;
   color: black;
-  transition:
-    transform 0.2s ease,
-    background-color 0.2s ease;
+  transition: transform 0.2s ease, background-color 0.2s ease;
 }
 
 .card:hover {
