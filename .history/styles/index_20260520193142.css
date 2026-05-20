@@ -28,12 +28,6 @@ header {
   margin: 3rem auto;
 }
 
-.skills ul {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-}
-
 .skills li {
   display: inline-block;
   margin: 0.4rem;
@@ -79,13 +73,13 @@ footer {
   text-align: center;
   margin-top: 2rem;
   padding: 2rem;
-  background-color: rgb(168, 85, 247);
+  background-color: rgb(196, 52, 196);
   color: white;
 }
 
 @media (min-width: 768px) {
   .projects {
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
